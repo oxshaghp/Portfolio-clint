@@ -65,7 +65,7 @@ function HeroNav() {
         </div>
 
         {/* Center Image */}
-        <div className="relative order-2 md:order-none md:absolute md:-top-35">
+        <div className="relative order-2 md:order-none md:absolute md:-top-35 z-10">
           <img
             src="/Frame 57.png"
             alt="Frame"
