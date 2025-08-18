@@ -65,7 +65,7 @@ function Serves() {
                 height={350}
                 className="object-contain rounded-xl z-20"
               />
-              <div className="flex justify-end absolute sm:bottom-3 sm:right-25 right-0 bottom-5 z-30">
+              <div className="flex justify-end absolute sm:-bottom-3 sm:right-25 right-0 bottom-1 z-30">
                 <button
                   className="sm:w-28 sm:h-28 w-20 h-20 flex items-center justify-center bg-[var(--text-p)] rounded-full 
                   transition-all duration-300 hover:bg-[var(--bg-orange)] hover:scale-110 group"
