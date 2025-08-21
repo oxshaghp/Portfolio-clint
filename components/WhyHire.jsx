@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 function WhyHire() {
   return (
     <motion.section
+      id="About"
       className="mt-20 w-full h-full flex items-center justify-center sm:gap-52 gap-20 flex-wrap bg-[var(--bg-why)] rounded-[4rem] p-12"
       initial={{ opacity: 0, y: -50 }}
       whileInView={{ opacity: 1, y: 0 }}

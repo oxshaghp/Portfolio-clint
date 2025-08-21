@@ -21,7 +21,7 @@ function Serves() {
   };
 
   return (
-    <section className="relative sm:mt-[32.5rem] text-white w-full h-full bg-[var(--bg-black)] rounded-[4rem] p-12 overflow-hidden">
+    <section id="Service" className="relative sm:mt-[32.5rem] text-white w-full h-full bg-[var(--bg-black)] rounded-[4rem] p-12 overflow-hidden">
       {/* Head Of Section */}
       <motion.div
         className="flex items-center sm:justify-between justify-center flex-wrap z-20 gap-4 relative"

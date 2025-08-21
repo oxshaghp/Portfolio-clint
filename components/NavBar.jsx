@@ -8,9 +8,19 @@ import { HiMenu, HiX } from "react-icons/hi";
 function NavBar() {
   const [active, setActive] = useState("Home");
   const [menuOpen, setMenuOpen] = useState(false);
-  // Define navigation items for left and right sections
+
+  // Define navigation items
   const leftItems = ["Home", "About", "Service"];
   const rightItems = ["Resume", "Project", "Contact"];
+
+  // Function to handle scroll smoothly
+  const handleScroll = (id) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   // Function to render navigation links
   const renderLinks = (items) =>
     items.map((item) => (
@@ -19,6 +29,7 @@ function NavBar() {
         onClick={() => {
           setActive(item);
           setMenuOpen(false);
+          handleScroll(item);
         }}
         className={`cursor-pointer px-3 py-4 rounded-full transition-colors duration-300 
           ${active === item ? "bg-[var(--bg-orange)]" : "bg-transparent"} 

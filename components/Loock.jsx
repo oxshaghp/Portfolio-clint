@@ -23,7 +23,7 @@ function Loock() {
   ];
 
   return (
-    <motion.section className="relative w-full h-full rounded-[4rem] p-5 container m-auto overflow-hidden mb-20"
+    <motion.section id="Project" className="relative w-full h-full rounded-[4rem] p-5 container m-auto overflow-hidden mb-20"
       initial={{ opacity: 0, y: -100 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}

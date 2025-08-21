@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 function Experince() {
   return (
     <motion.section
+     id="Resume"
       className="mt-20 mb-20"
       initial={{ opacity: 0, x: -100 }}
       whileInView={{ opacity: 1, x: 0 }}

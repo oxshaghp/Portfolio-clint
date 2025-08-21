@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 
 function HeroNav() {
   return (
-    <section className="mt-38">
+    <section id="Home" className="mt-38">
       {/* Top The Section */}
       <motion.div
         className="flex items-center justify-center"
