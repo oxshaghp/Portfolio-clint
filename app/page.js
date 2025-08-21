@@ -1,5 +1,6 @@
 import Experince from "@/components/Experince";
 import HeroNav from "@/components/HeroNav";
+import Loock from "@/components/Loock";
 import NavBar from "@/components/NavBar";
 import Serves from "@/components/Serves";
 import WhyHire from "@/components/WhyHire";
@@ -13,6 +14,7 @@ export default function Home() {
     <Serves/>
     <Experince/>
     <WhyHire/>
+    <Loock/>
     </>
   );
 }
